@@ -29,12 +29,12 @@
                     },
                     "form": [{
                         "type": "validator",
-                        "url": "/devops/setup/bm-helper/github_helper.html"
+                        "url": "https://local.dev-console.stage1.ng.bluemix.net:3800/devops/setup/bm-helper/custom_github_helper.html"
                     }, {
                         "type": "selectfieldset",
                         "key": "type",
                         "titleMap": {
-                            "new": "New",
+                            "new": "New Bog",
                             "fork": "Fork",
                             "link": "Existing",
                             "clone": "Clone"

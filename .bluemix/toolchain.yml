@@ -47,6 +47,11 @@ github:
   schema:
     $ref: github.json
   service-category: githubpublic
+  parameters:
+    repo_name: "sample-{{name}}"
+    repo_url: https://github.com/open-toolchain/node-hello-world
+    type: clone
+    has_issues: true
   
 #Deployment
 deploy:

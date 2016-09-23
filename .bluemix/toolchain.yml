@@ -18,7 +18,6 @@ sample-repo:
     repo_url: https://github.com/open-toolchain/node-hello-world
     type: clone
     has_issues: true
-  hidden: [form, description]
 
 # Pipelines
 sample-build:
@@ -43,15 +42,6 @@ sample-build:
 webide:
   service_id: orion
   
-github:
-  schema:
-    $ref: github.json
-  service-category: githubpublic
-  parameters:
-    repo_name: "big-{{name}}"
-    repo_url: https://github.com/open-toolchain/aye
-    type: clone
-    has_issues: true
   
 #Deployment
 deploy:

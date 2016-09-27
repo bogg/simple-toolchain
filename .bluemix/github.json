@@ -50,7 +50,11 @@
           "type": "section",
           "description": "Fork the repository that is specified in the Source repository URL field.",
           "items": [
-              "repo_url"
+                {
+                  "type": "select",
+                  "key": "repo-url",
+                  "readonly": false
+                }
           ]
       }, {
           "type": "section",

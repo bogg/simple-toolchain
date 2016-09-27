@@ -52,7 +52,7 @@
           "items": [
                 {
                   "type": "select",
-                  "key": "repo-url",
+                  "key": "repo_url",
                   "readonly": false
                 }
           ]

@@ -50,6 +50,7 @@
                                 ]
                             }, {
                                 "type": "section",
+                                "darklaunch": "gitfork",
                                 "description": "Fork the repository that is specified in the Source repository URL field.",
                                 "items": [
                                     {

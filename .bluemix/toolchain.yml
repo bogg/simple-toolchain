@@ -43,6 +43,11 @@ sample-build:
 webide:
   service_id: orion
   
+webide_ui:
+  schema:
+    $ref: orion.json
+  service-category:orion
+  
 github:
   schema:
     $ref: github.json

@@ -1,1 +1,25 @@
-
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Sample Deploy Stage",
+    "localized-struct":{
+        "$ref": "deploy-localized-struct.json"
+    },
+    "description": "Orion",
+    "longDescription": "The Delivery Pipeline automates continuous deployment.",
+    "type": "object",
+    "properties": {
+        "containerUrl": {
+            "description": "The URL of your container",
+            "type": "string"
+        }
+    },
+    "form": [       
+        {
+          "type": "text",
+          "darklaunch": "gitfork",
+          "readonly": false,
+          "title": "Container URL",
+          "key": "containerUrl"
+        }
+    ]
+}

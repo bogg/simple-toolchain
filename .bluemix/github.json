@@ -1,6 +1,10 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "properties": {
+       "url_test": {
+            "title": "Container url",
+            "type": "string"
+       },
        "repo_name": {
             "title": "New repository name",
             "type": "string"
@@ -31,6 +35,13 @@
       "type": "validator",
       "url": "https://local.dev-console.stage1.ng.bluemix.net:3800/devops/setup/bm-helper/github_helper.html"
   }, {
+          "type": "text",
+          "readonly": false,
+          "title": "App name",
+          "key": "url_test"
+        },
+           
+           {
                         "type": "selectfieldset",
                         "key": "type",
                         "titleMap": {

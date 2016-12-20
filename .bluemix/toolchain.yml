@@ -47,7 +47,9 @@ webide_ui:
   schema:
     $ref: orion.json
   service-category:orion
-  
+  parameters:
+    test: true
+    
 github:
   schema:
     $ref: github.json

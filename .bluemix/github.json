@@ -38,7 +38,8 @@
           "type": "text",
           "readonly": false,
           "title": "App name",
-          "key": "url_test"
+          "key": "url_test",
+           "darklaunch": "orionlsp",
         },
            
            {

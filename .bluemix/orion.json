@@ -16,7 +16,7 @@
     "form": [       
         {
           "type": "text",
-          "darklaunch": "gitfork",
+          "darklaunch": "orionlsp",
           "readonly": false,
           "title": "Container URL",
           "key": "containerUrl"

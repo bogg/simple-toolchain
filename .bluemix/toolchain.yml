@@ -39,7 +39,15 @@ sample-build:
     services: ["sample-repo"]
   hidden: [form, description]
     
-
+ #Github
+github:
+  schema:
+    $ref: github.json
+  service-category: githubpublic
+  parameters:
+    repo_url: https://github.com/open-toolchain/Microservices_CatalogAPI
+    
+    
 #Web IDE
 webide:
   service_id: orion

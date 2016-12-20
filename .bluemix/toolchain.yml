@@ -42,14 +42,6 @@ sample-build:
 webide:
   service_id: orion
  
- #Github
-github:
-  schema:
-    $ref: github.json
-  service-category: githubpublic
-  parameters:
-    repo_url: https://github.com/open-toolchain/Microservices_CatalogAPI
-    
 #Deployment
 deploy:
   schema: 

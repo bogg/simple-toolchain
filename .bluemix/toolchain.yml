@@ -44,7 +44,7 @@ webide:
   
  
 #Deployment
-ori:
+orin:
   schema:
     $ref: orion.json
   service-category:orion

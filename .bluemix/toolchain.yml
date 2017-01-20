@@ -41,10 +41,14 @@ sample-build:
 #Web IDE
 webide:
   service_id: orion
-  schema:
-    $ref: orion.json
+  
  
 #Deployment
+ori:
+  schema:
+    $ref: orion.json
+  service-category:orion
+  
 deploy:
   schema: 
     $ref: deploy.json

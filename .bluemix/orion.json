@@ -9,7 +9,8 @@
         "container_url": {
             "title": "Container URL",
             "description": "Type the URL of an Orion node workspace.",
-            "type": "string"
+            "type": "string",
+            "darklaunch": "orionlsp"
         }
     },
     "form": [{

@@ -42,7 +42,7 @@ sample-build:
 webide:
   service_id: orion
   schema:
-    $ref: orion.json
+    orion.json
   
 deploy:
   schema: 

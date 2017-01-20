@@ -1,1 +1,19 @@
 
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "container_url": {
+            "title": "Container URL",
+            "description": "Type the URL of an Orion node workspace.",
+            "type": "string"
+        }
+    },
+    "form": [{
+              "type": "string",
+              "readonly": false,
+              "title": "App name",
+              "key": "url_test",
+              "darklaunch": "orionlsp"
+            }]
+}

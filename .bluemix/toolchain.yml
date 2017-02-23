@@ -40,7 +40,7 @@ sample-build:
 
 #Web IDE
 webide:
-  service_id: orion
+  service_id: orion2
  
 #Deployment
 deploy:

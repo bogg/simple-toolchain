@@ -43,8 +43,6 @@
           "type": "section",
           "description": "Create an empty repository.",
           "items": [
-              "repo_name",
-              "has_issues"
           ]
       }, {
           "type": "section",

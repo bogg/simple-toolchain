@@ -29,18 +29,33 @@
             "description": "Select this check box to enable GitHub Issues for lightweight issue tracking.",
             "type": "boolean",
             "default": true
+        },
+       "boglabel": {
+        "type": "object",
+        "title": "Create Tags",
+        "properties": {
+          "bogtype": {"title": "type", "type": "boolean"},
+          "severity": {"title": "severity", "type": "boolean"},
+          "state": {"title": "state", "type": "boolean"},
+          "priority": {"title": "priority", "type": "boolean"},
+          "resolution": {"title": "resolution", "type": "boolean"},
+          "filedAgainst": {"title": "filedAgainst", "type": "boolean"},
+          "tags": {"title": "tags", "type": "boolean"}
         }
+      }
     },
   "form": [{
       "type": "validator",
       "url": "https://local.dev-console.stage1.ng.bluemix.net:3800/devops/setup/bm-helper/github_helper.html"
   }, {
-          "type": "text",
-          "readonly": false,
-          "title": "App name",
-          "key": "url_test",
-           "darklaunch": "orionlsp",
-        },
+       "type": "selectfieldset",
+       "title":"xyzz",
+       "items": [
+           {
+             "key":"label.type"
+           }
+         ]
+     },
            
            {
                         "type": "selectfieldset",

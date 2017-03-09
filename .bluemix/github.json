@@ -34,6 +34,12 @@
         "type": "object",
         "title": "Create Tags",
         "properties": {
+          "anotherObj": {"title": "More Obj Fun",
+                        "type": "object",
+                         "properties": {
+                            "beDone": {"title": "More", "type": "string"}
+                         }
+                        },
           "bogtype": {"title": "type", "type": "boolean"},
           "severity": {"title": "severity", "type": "boolean"},
           "state": {"title": "state", "type": "boolean"},
@@ -50,6 +56,7 @@
   },
  "url_test",
  "boglabel.bogtype",
+ "boglabel.anotherObj.beDone",
            
            {
                         "type": "selectfieldset",

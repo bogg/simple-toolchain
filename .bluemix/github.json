@@ -47,7 +47,8 @@
   "form": [{
       "type": "validator",
       "url": "https://local.dev-console.stage1.ng.bluemix.net:3800/devops/setup/bm-helper/github_helper.html"
-  }, 
+  },
+ "url_test",
  "boglabel.bogtype",
            
            {

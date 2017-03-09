@@ -34,6 +34,12 @@
         "type": "object",
         "title": "Create Tags",
         "properties": {
+          "anotherObj": {"title": "More Obj Fun",
+                        "type": "object",
+                         "properties": {
+                            "beDone": {"title": "More", "type": "string"}
+                         }
+                        },
           "bogtype": {"title": "type", "type": "boolean"},
           "severity": {"title": "severity", "type": "boolean"},
           "state": {"title": "state", "type": "boolean"},
@@ -48,8 +54,10 @@
       "type": "validator",
       "url": "https://local.dev-console.stage1.ng.bluemix.net:3800/devops/setup/bm-helper/github_helper.html"
   },
+ "boglabel",
  "url_test",
  "boglabel.bogtype",
+ "boglabel.anotherObj.beDone",
            
            {
                         "type": "selectfieldset",

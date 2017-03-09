@@ -29,6 +29,12 @@
             "description": "Select this check box to enable GitHub Issues for lightweight issue tracking.",
             "type": "boolean",
             "default": true
+        },
+        "enable_traceability": {
+            "title": "Track deployment of code changes",
+            "description": "Select this check box to track the deployment of code changes by creating tags, labels and comments on commits, pull requests and referenced issues.",
+            "type": "boolean",
+            "default": false
         }
     },
   "form": [{
@@ -41,7 +47,9 @@
           "key": "url_test",
            "darklaunch": "orionlsp",
         },
-           
+           { "key": "enable_traceability",
+             "visible": false
+           },
            {
                         "type": "selectfieldset",
                         "key": "type",

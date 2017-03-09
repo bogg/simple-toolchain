@@ -47,11 +47,8 @@
   "form": [{
       "type": "validator",
       "url": "https://local.dev-console.stage1.ng.bluemix.net:3800/devops/setup/bm-helper/github_helper.html"
-  }, {
-       "type": "boolean",
-       "title":"xyzz",
-       "key":"boglabel.bogtype"   
-     },
+  }, 
+ "boglabel.bogtype",
            
            {
                         "type": "selectfieldset",

@@ -57,6 +57,7 @@
  "url_test",
  "boglabel.bogtype",
  "boglabel.anotherObj.beDone",
+ "boglabel",
            
            {
                         "type": "selectfieldset",

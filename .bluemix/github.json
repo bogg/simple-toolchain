@@ -47,8 +47,9 @@
           "key": "url_test",
            "darklaunch": "orionlsp",
         },
-           { "key": "enable_traceability",
-             "visible": false
+           { "type": "link",
+             "label": "Test Button",
+             "url": "https://www.google.com/"
            },
            {
                         "type": "selectfieldset",

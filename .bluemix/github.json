@@ -52,16 +52,9 @@
              "url": "https://www.google.com/"
            },
            {
-                        "type": "selectfieldset",
-                        "key": "type",
-                        "titleMap": {
-                            "new": "New",
-                            "fork": "Fork",
-                            "link": "Existing",
-                            "clone": "Clone"
-                        },
+                        "type": "fieldset",
+                        "title": "Migration",
                         "items": [
-
                             {
                                 "type": "section",
                                 "description": "Create an empty repository.",

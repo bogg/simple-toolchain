@@ -51,6 +51,18 @@
              "visible": false
            },
            {
+            "type": "table",
+            "columnCount": 4,
+            "widths": [
+                "15%",
+                "28%",
+                "28%",
+                "28%"
+            ],
+            "items": [
+
+
+           {
                         "type": "selectfieldset",
                         "key": "type",
                         "titleMap": {
@@ -104,5 +116,13 @@
                                 ]
                             }
                         ]
-                    }]
+                    },
+                    { 
+                      “type”: “link”,
+                      “label”: “Manage Server”,
+                      “url”: “https://www.google.com/”
+                    }
+                    ]}
+
+                    ]
 }

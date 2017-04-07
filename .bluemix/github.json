@@ -117,7 +117,7 @@
                     },
                     { 
                       "type": "link",
-                      "title": "Manage Server",
+                      "label": "Manage Server",
                       "url": "https://www.google.com/"
                     }
                     ]}

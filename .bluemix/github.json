@@ -52,12 +52,10 @@
            },
            {
             "type": "table",
-            "columnCount": 4,
+            "columnCount": 2,
             "widths": [
-                "15%",
-                "28%",
-                "28%",
-                "28%"
+                "90%",
+                "10%"
             ],
             "items": [
 

@@ -53,6 +53,13 @@
            },
            {
                         "type": "selectfieldset",
+             "key": "type",
+                        "titleMap": {
+                            "new": "New",
+                            "fork": "Fork",
+                            "link": "Existing",
+                            "clone": "Clone"
+                        },
                         "items": [
 
                             {

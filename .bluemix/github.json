@@ -38,58 +38,104 @@
                         "type": "validator",
                         "url": "/devops/setup/bm-helper/github_helper.html"
                     }, {
-                        "type": "selectfieldset",
-                        "key": "type",
-                        "titleMap": {
-                            "new": "New",
-                            "fork": "Fork",
-                            "link": "Existing",
-                            "clone": "Clone"
-                        },
-                        "items": [{
-                            "type": "section",
-                            "description": "Create an empty repository.",
+                            "type": "pagefieldset",
                             "items": [
-                                "repo_name",
-                                "has_issues",
-                                "enable_traceability"
-                            ]
-                        }, {
-                            "type": "section",
-                            "description": "Fork the repository that is specified in the Source repository URL field.",
-                            "items": [
-                                {
-                                  "type": "select",
-                                  "key": "repo_url",
-                                  "readonly": false
+                                {   "type": "section",
+                                    "items": [
+                                                {
+                                                  "type": "button",
+                                                  "label": "Manage Servers",
+                                                  "target": 1
+                                                },
+                                                {
+                                                    "type": "selectfieldset",
+                                                    "key": "type",
+                                                    "titleMap": {
+                                                        "new": "New",
+                                                        "fork": "Fork",
+                                                        "link": "Existing",
+                                                        "clone": "Clone"
+                                                    },
+                                                    "items": [{
+                                                        "type": "section",
+                                                        "description": "Create an empty repository.",
+                                                        "items": [
+                                                            "repo_name",
+                                                            "has_issues",
+                                                            "enable_traceability"
+                                                        ]
+                                                    }, {
+                                                        "type": "section",
+                                                        "description": "Fork the repository that is specified in the Source repository URL field.",
+                                                        "items": [
+                                                            {
+                                                              "type": "select",
+                                                              "key": "repo_url",
+                                                              "readonly": false
+                                                            },
+                                                            "enable_traceability"
+                                                        ]
+                                                    }, {
+                                                        "type": "section",
+                                                        "description": "Clone the repository that is specified in the Source repository URL field.",
+                                                        "items": [
+                                                            "repo_name",
+                                                            {
+                                                              "type": "select",
+                                                              "key": "repo_url",
+                                                              "readonly": false
+                                                            },
+                                                            "has_issues",
+                                                            "enable_traceability"
+                                                        ]
+                                                    }, {
+                                                        "type": "section",
+                                                        "description": "Link to the repository that is specified in the Source repository URL field.",
+                                                        "items": [
+                                                            {
+                                                              "type": "select",
+                                                              "key": "repo_url",
+                                                              "readonly": false
+                                                            },
+                                                            "enable_traceability"
+                                                        ]
+                                                    }]
+                                                }]
                                 },
-                                "enable_traceability"
+                                 {   
+                                    "type": "section",
+                                    "description": "Authorizations",
+                                    "items": [
+                                                {
+                                                  "type": "button",
+                                                  "label": "Done",
+                                                  "target": 0
+                                                },
+                                                {
+                                                  "type": "button",
+                                                  "label": "Add a new Authorization",
+                                                  "target": 2
+                                                }
+                                    ]
+                                 },
+                                 {
+                                    "type": "section",
+                                    "description": "Add a New Authorizations",
+                                    "items": [
+                                                {
+                                                  "type": "button",
+                                                  "label": "OK",
+                                                  "target": 1
+                                                },
+                                                {
+                                                  "type": "button",
+                                                  "label": "Cancel",
+                                                  "target": 1
+                                                },
+                                    ]
+                                 }
                             ]
-                        }, {
-                            "type": "section",
-                            "description": "Clone the repository that is specified in the Source repository URL field.",
-                            "items": [
-                                "repo_name",
-                                {
-                                  "type": "select",
-                                  "key": "repo_url",
-                                  "readonly": false
-                                },
-                                "has_issues",
-                                "enable_traceability"
-                            ]
-                        }, {
-                            "type": "section",
-                            "description": "Link to the repository that is specified in the Source repository URL field.",
-                            "items": [
-                                {
-                                  "type": "select",
-                                  "key": "repo_url",
-                                  "readonly": false
-                                },
-                                "enable_traceability"
-                            ]
-                        }]
-                    }]
+                        }
+                    ]
                 }
          

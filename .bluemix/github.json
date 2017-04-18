@@ -92,10 +92,4 @@
                         }]
                     }]
                 }
-            },
-            "default_locale": "en",
-            "locales": {
-                "$ref": "./locales.json#/githubpublic"
-            }
-        }]
-    }
+         

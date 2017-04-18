@@ -59,6 +59,11 @@
                                 "type": "section",
                                 "description": "Create an empty repository.",
                                 "items": [
+                                    {
+                                      "type": "button",
+                                      "label": "Manage Servers",
+                                      "target": 1
+                                    },
                                     "repo_name",
                                     "has_issues"
                                 ]

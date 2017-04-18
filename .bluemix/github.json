@@ -121,7 +121,18 @@
                                  {
                                     "type": "section",
                                     "description": "Add a New Authorizations",
-                                    "items": [
+                                    "items": [  {
+                                                  "type": "string",
+                                                  "label": "Title"
+                                                },
+                                                {
+                                                  "type": "string",
+                                                  "label": "API Root URL"
+                                                },
+                                                {
+                                                  "type": "string",
+                                                  "label": "Personal Access Token"
+                                                },
                                                 {
                                                   "type": "button",
                                                   "label": "OK",

@@ -107,9 +107,8 @@
                                     "description": "Authorizations",
                                     "items": [
                                                 {
-                                                  "type": "button",
-                                                  "label": "Done",
-                                                  "target": 0
+                                                  "type": "string",
+                                                  "label": "Done"
                                                 },
                                                 {
                                                   "type": "string",

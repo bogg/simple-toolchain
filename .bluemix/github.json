@@ -112,9 +112,8 @@
                                                   "target": 0
                                                 },
                                                 {
-                                                  "type": "button",
-                                                  "label": "Add a new Authorization",
-                                                  "target": 2
+                                                  "type": "string",
+                                                  "label": "Add a new Authorization"
                                                 }
                                     ]
                                  },

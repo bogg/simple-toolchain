@@ -36,7 +36,8 @@
     },
   "form": [{
       "type": "validator",
-      "url": "/devops/setup/bm-helper/github_helper.html"
+      "source": "broker",
+      "version": "1"
   }, {
           "type": "text",
           "readonly": false,

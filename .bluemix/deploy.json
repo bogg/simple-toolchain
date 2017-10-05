@@ -29,7 +29,7 @@
     "form": [
        {
           "type": "validator",
-          "url": "/devops/setup/bm-helper/helper.html"
+           "url": "https://local.console.stage1.bluemix.net:3800/devops/setup/bm-helper/helper.html"
        },        
         {
           "type": "text",
